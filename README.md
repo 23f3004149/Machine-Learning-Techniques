@@ -1,110 +1,87 @@
 # 🧠 Machine Learning Techniques — IIT Madras BS Degree
 
-A curated collection of implementations, derivations, and experiments from my **Machine Learning Techniques (MLT)** course.
+This repository contains my programming implementations and experiments from the **Machine Learning Techniques (MLT)** course in the BS in Data Science & Applications program at IIT Madras.
 
-This repository is maintained as a **proof of understanding** — every notebook documents not just the final solution, but the reasoning process behind the algorithm.
-
----
-
-## 📘 About This Repository
-
-Instead of treating assignments as one-time submissions, I maintain them as a growing technical notebook where I:
-
-* implement algorithms step-by-step
-* verify results mathematically and experimentally
-* compare theory with actual behavior
-* build intuition through small experiments
-
-The goal is long-term mastery, not short-term completion.
+The purpose of this repository is to maintain a structured record of practical understanding — every notebook corresponds to an algorithm or concept implemented and explored during the course.
 
 ---
 
-## 🗂 Repository Structure
+## 📚 Topics Covered
 
+### Unsupervised Learning
+
+* Representation Learning — Principal Component Analysis (PCA)
+* Kernel PCA
+* Clustering — K-Means and Kernel K-Means
+* Maximum Likelihood Estimation & Bayesian Estimation
+* Gaussian Mixture Models
+* Expectation Maximization (EM Algorithm)
+
+### Supervised Learning — Regression
+
+* Least Squares Regression
+* Bayesian Interpretation of Regression
+* Ridge Regression
+* LASSO Regression
+
+### Supervised Learning — Classification
+
+* K-Nearest Neighbours
+* Decision Trees
+* Naive Bayes (Generative Models)
+* Perceptron
+* Logistic Regression (Discriminative Models)
+
+### Advanced Models
+
+* Support Vector Machines
+* Ensemble Methods — Bagging & AdaBoost
+* Artificial Neural Networks (Multiclass Classification)
+
+---
+
+## 🗂 Repository Organization
+
+The repository is organized by topic rather than by assignment week.
+Each folder contains implementations, experiments, and observations related to that concept.
+
+Typical contents:
+
+* algorithm implementation
+* verification experiments
+* small datasets and analysis
+
+---
+
+## ▶️ Running the Notebooks
+
+### Google Colab
+
+Open the notebook and run all cells — no installation required.
+
+### Local Environment
+
+```bash
+git clone <repo-url>
+cd machine-learning-techniques-iitm
+pip install -r requirements.txt
+jupyter notebook
 ```
-MLT-IITM/
-│
-├── 01_Dimensionality_Reduction/
-│   └── PCA_Week_1_Programming.ipynb
-│
-├── 02_Regression/
-├── 03_Classification/
-├── 04_Model_Evaluation/
-├── 05_Advanced_Models/
-│
-├── datasets/
-└── README.md
-```
-
-Each topic generally contains:
-
-* concept explanation
-* implementation
-* experimentation / observations
-
----
-
-## 📌 Current Notebooks
-
-### Principal Component Analysis (PCA)
-
-* Mathematical intuition behind dimensionality reduction
-* Eigenvectors as directions of maximum variance
-* Projection to lower dimensional subspace
-* Practical implementation and verification
-
----
-
-## ▶️ Run on Google Colab
-
-You can open any notebook directly in Colab and run all cells.
-
-No setup required.
-
----
-
-## 🧠 Learning Approach
-
-I follow a simple rule:
-
-> If I cannot implement an algorithm from scratch, I have not learned it yet.
-
-So most notebooks:
-
-1. Implement algorithm manually
-2. Validate using libraries (NumPy / sklearn)
-3. Experiment with edge cases
-
----
-
-## 📈 Progress
-
-| Topic                    | Status     |
-| ------------------------ | ---------- |
-| Dimensionality Reduction | 🟢 Started |
-| Regression               | ⬜ Pending  |
-| Classification           | ⬜ Pending  |
-| Model Evaluation         | ⬜ Pending  |
-| Ensemble Methods         | ⬜ Pending  |
 
 ---
 
 ## 🎯 Objective
 
-By the end of the course this repository should serve as:
+This repository serves as:
 
-* Revision notes
-* Interview preparation reference
-* Demonstration of applied ML understanding
+* A reference implementation set for core machine learning algorithms
+* A revision resource for concepts and derivations
+* A demonstration of applied understanding through code
 
 ---
 
 ## 👤 Author
 
-**Vaibhav**
+Vaibhav
 BS in Data Science & Applications
 Indian Institute of Technology Madras
-
----
-
-> Updated regularly as the course progresses.
