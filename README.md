@@ -1,4 +1,4 @@
-# 🧠 Machine Learning Techniques — IIT Madras BS Degree
+# 🧠 Machine Learning Techniques
 
 This repository contains my programming implementations and experiments from the **Machine Learning Techniques (MLT)** course in the BS in Data Science & Applications program at IIT Madras.
 
@@ -82,6 +82,4 @@ This repository serves as:
 
 ## 👤 Author
 
-Vaibhav
-BS in Data Science & Applications
-Indian Institute of Technology Madras
+Vaibhav Pandey
